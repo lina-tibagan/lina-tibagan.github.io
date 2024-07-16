@@ -132,7 +132,7 @@ font-style: Italic;
 
 #contact {
   width: 100%;
-  height: 10%;
+  min-height: 300px;
   background-color: #ae6cb0;
   display: flex;
   justify-content: space-between;
