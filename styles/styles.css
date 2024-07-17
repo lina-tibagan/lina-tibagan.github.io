@@ -1,0 +1,108 @@
+:root {
+    --color-morado-claro: #d7aad9;
+    --color-morado-oscuro: #693e89;
+}
+
+/*  --------------------- Generales --------------------- */
+html {
+    box-sizing: border-box;
+    font-size: 62.6%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 60px;
+    color: var(--color-morado-oscuro);
+}
+
+p {
+    font-size: 20px;
+    font-style: Italic;
+}
+
+section:nth-child(odd) {
+    background-color: var(--color-morado-oscuro);
+}
+
+section:nth-child(even) {
+    background-color: var(--color-morado-claro);
+}
+
+.contenedores {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+
+
+
+/*  --------------------- Navegacion --------------------- */
+#navbar {
+    position: fixed;
+    justify-content: flex-end;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    background-color: var(--color-morado-oscuro);
+    padding: 25px 0;
+    z-index: 10;
+
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+}
+
+#navbar ul li {
+    margin: 0 15px;
+}
+
+#navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+#navbar ul li a:hover {
+    background-color: var(--color-morado-claro);
+}
+
+
+@media (max-width: 768px) {
+    #navbar ul li a {
+        font-size: 2rem;
+        padding: 1.5rem;
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    p {
+        font-size: 1.8rem;
+    }
+
+    #contact h2 {
+        font-size: 2.5rem;
+    }
+
+    #contact a {
+        font-size: 2rem;
+    }
+}
