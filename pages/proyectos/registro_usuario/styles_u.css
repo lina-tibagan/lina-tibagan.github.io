@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contenedor {
+    width: 610px;
+    height: 200px;
+    background-color: #002D59;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+img {
+    width: 162px;
+    margin-top: -85px;
+    padding-bottom:15px;
+}
+
+#datos {
+    width: 610px;
+    height: 890px;
+    background-color: #cecece;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#datos input {
+    padding: 7px;
+    font-size: 18px;
+    border-radius: 8px;
+    background-color: #DBDBDB;
+    border: none;
+    margin: 15px;
+    text-align: center;
+}
+
+fieldset {
+    border: none;
+    padding: 8px;
+    text-align: center;
+    color: #999999;
+}
+
+legend {
+    padding: 0 10px;
+    font-size: 22px;
+}
+
+.usuario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.terminos{
+    padding-top:20px;
+}
+.contenedor2{
+    font-size: 20px;
+    text-align: justify;
+
+}
+
+button[type="submit"] {
+    width: 120px;
+    height: 60px;
+    background-color: #002D59;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border-radius: 9px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: white;
+    border: 2px solid #002D59;
+    color: black;
+}

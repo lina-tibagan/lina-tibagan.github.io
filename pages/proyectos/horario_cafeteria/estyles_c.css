@@ -1,0 +1,130 @@
+body {
+    font-family: "Ibarra Real Nova", serif;
+    font-optical-sizing: auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.img-fondo {
+    width: 930px;
+    height: 1024px;
+    background-image: url("imagen_fondo_semillas.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+
+.cafe {
+    width: 600px;
+    height: 1024px;
+    top: 0;
+    right: 0;
+    left: auto;
+    background-color: #DAC9BA;
+    position: absolute;
+    align-self: self-end;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 56px;
+    color: #6B4015;
+}
+
+.taza1 {
+    width: 225px;
+    height: 160px;
+    border-radius: 70%;
+    transform: rotate(-15deg);
+    float: left;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+.frase {
+    margin-left: 12px;
+    font-size: 58px;
+    background-color: #BDAF92;
+    border-radius: 10px;
+}
+
+.frase.uno {
+    width: 350px;
+    padding: 10px;
+}
+
+.frase.dos {
+    width: 300px;
+    float: right;
+    margin: 5px;
+    margin-right: 12px;
+}
+
+
+
+.frase.tres {
+    width: 300px;
+    float: left;
+    margin-left: 12px;
+}
+
+.dias {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+
+.taza2 {
+    width: 216px;
+    height: 136px;
+    border-radius: 70%;
+    float: right;
+    margin-right: 12px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+td {
+    border: 1px solid #824E1A;
+    padding: 8px;
+    text-align: left;
+    font-size: 21px;
+    font-weight: 700;
+    border-right: none;
+    border-left: none;
+    padding: 20px;
+}
+
+td:nth-child(1),
+td:nth-child(2) {
+    width: 50%;
+}
+
+
+td:nth-child(2) {
+    text-align: end;
+}
+
+td:hover {
+    background-color: #91765c;
+}
+
+h3 {
+    color: #6B4015;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 70px;
+
+}

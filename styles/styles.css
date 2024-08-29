@@ -97,6 +97,8 @@ section:nth-child(even) {
     padding: 10px 20px;
     border-radius: 15px;
     font-style: italic;
+    justify-content: center;
+    text-align: end;
 }
 
 .card a:hover {
@@ -110,10 +112,12 @@ section:nth-child(even) {
     left: 0;
     width: 100%;
     display: flex;
+    justify-content: end;
     background-color: var(--color-morado-oscuro);
     padding: 15px 0;
     z-index: 10;
-
+    
+    
 
 }
 

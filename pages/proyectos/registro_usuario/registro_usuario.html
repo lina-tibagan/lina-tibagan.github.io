@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Usuario</title>
+    <link rel="stylesheet" href="styles_u.css">
+</head>
+<body>
+    <div id="datos">
+        <div class="contenedor"></div>
+        <img src="user_icon-icons.webp" alt="icono de usuario">
+        <input type="text" placeholder="Nombre y apellido">
+        <input type="email" placeholder="Correo electronico">
+        <input type="tel" placeholder="Numero de telefono" minlength="10" maxlength="15">
+        <fieldset class="usuario">
+            <legend>Credenciales de inicio de sesión</legend>
+            <input type="text" placeholder="Nombre Usuario" maxlength="12">
+            <input type="password" id="password" placeholder="Contraseña" maxlength="12">
+            <input type="password" id="confirm-password" placeholder="Confirmar Contraseña" maxlength="12">
+        </fieldset>
+        <fieldset class="terminos">
+            <legend>Consentimientos y Aceptaciones</legend>
+            <div class="contenedor2">
+                <input type="checkbox" id="condiciones" name="terminos" value="condiciones" required/>
+                <label for="condiciones">Aceptación de términos y condiciones.</label>
+            </div>
+            <div class="contenedor2">
+                <input type="checkbox" id="privacidad" name="terminos" value="privacidad" required/>
+                <label for="privacidad">Aceptación de políticas de privacidad.</label>
+            </div>
+        </fieldset>
+        <button type="submit">Registrarse</button>
+    </div>
+</body>
+</html>
